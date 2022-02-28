@@ -1,0 +1,84 @@
+.Main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 900px;
+  padding: 0px 115px;
+}
+
+.LeftBody {
+}
+.LeftBody h1 {
+  font-size: 90px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.LeftBody h1,
+.LeftBody p {
+  margin-bottom: 30px;
+  width: 80%;
+}
+.RightBody {
+}
+.InputForm .IF input {
+  margin-bottom: 22px;
+  width: 315px;
+  height: 36px;
+  border-radius: 10px;
+  outline: none;
+  background-color: #f5f5f5;
+  border: none;
+  padding: 10px;
+}
+.InputForm div input:focus {
+  border: 2px solid rgb(17, 17, 223);
+}
+.IFlogin {
+  width: 95px;
+  height: 44px;
+  border-radius: 24px;
+  font-size: 19px;
+  padding: 0 0 3px 0;
+  font-weight: 500;
+  color: white;
+  background-color: #0a7cff;
+  border: none;
+  margin-right: 15px;
+}
+.IFlogin:hover {
+  background-color: #0970e6;
+}
+.IFlogin:active {
+  opacity: 0.4;
+}
+.IFsapn a {
+  font-size: 15px;
+}
+.IFCheckBox {
+  margin: 20px 0;
+}
+.appMic {
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+/*other*/
+.navbar {
+  opacity: 0.9;
+}
+.navBarP .nav-item {
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+}
+.foot {
+  font-size: 13px;
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}

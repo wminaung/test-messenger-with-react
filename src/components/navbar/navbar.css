@@ -1,0 +1,54 @@
+body {
+}
+
+@media (max-width: 770px) {
+  .hamburgerMenu {
+    width: 50px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .animeBar {
+    position: relative;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    border-radius: 4px;
+    transition: all 0.5s ease;
+  }
+
+  .bar1 {
+    transform: translate(0, 200%) rotate(25deg);
+  }
+  .bar3 {
+    transform: translate(1px, -180%) rotate(-25deg);
+  }
+  .bar2 {
+    opacity: 0;
+  }
+
+  .navbarHolder {
+    position: fixed;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .dno {
+    display: none;
+  }
+  .zzz {
+    position: relative;
+    z-index: 300;
+  }
+}
